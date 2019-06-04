@@ -1,15 +1,19 @@
 body  {
-    background-color: #fff;}
+    background-color: #fff;
+}
+
 .h1   {
     color: #a0a0a0;
-    font-family: 'Questrial', sans-serif;}
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
 
 .fade {
    opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-   }
+}
 
    .fade:hover {
       opacity: 0.5;
