@@ -1,12 +1,28 @@
 body {
-    background-color: #fff;
+background-color: #fff;
 }
 
-h1 {
-    color: #a0a0a0;
+.header {
+    display: relative;
+    color: #cccccc;
     font-family: 'Questrial', sans-serif;
-    font-size: 20px;
+    font-size: 100px;
+    letter-spacing: -10px;
     text-align: center;
+}
+
+.header:hover {
+    display: relative;
+    color: #cccccc;
+    font-family: 'Questrial', sans-serif;
+    font-size: 100px;
+    letter-spacing: 0px;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: letter-spacing 1s;
 }
 
 .fade {
@@ -20,9 +36,12 @@ h1 {
       opacity: 0.5;
       }
 
-.image1 {
+.links {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  color: #cccccc;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
