@@ -1,7 +1,8 @@
-body {background-color: powderblue;}
+body  {
+    background-color: #fff;}
 .h1   {
-	color: #a0a0a0;
-	font-family: 'Questrial', sans-serif;}
+    color: #a0a0a0;
+    font-family: 'Questrial', sans-serif;}
 
 .fade {
    opacity: 1;
