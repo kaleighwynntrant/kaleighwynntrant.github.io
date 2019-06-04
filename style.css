@@ -2,9 +2,10 @@ body  {
     background-color: #fff;
 }
 
-.h1   {
+h1   {
     color: #a0a0a0;
     font-family: 'Questrial', sans-serif;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -18,3 +19,10 @@ body  {
    .fade:hover {
       opacity: 0.5;
       }
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
